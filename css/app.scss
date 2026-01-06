@@ -31,6 +31,11 @@ body {
                 right: 40%;
                 width: 95px;
             }
+            @media(max-width:375px) {
+                top: 13px;
+                right: 40%;
+                width: 95px;
+            }
 
             @media(max-width:320px) {
                 top: 14px;
@@ -76,6 +81,19 @@ body {
             .light-a {
                 right: 50.4% !important;
                 top: 44.3% !important;
+            }
+        }
+
+    }
+    @media (max-width: 375px) {
+ 
+        background-size: 181% 79% !important;
+        background-position: 47% 0%;
+
+        .inner {
+            .light-a {
+                right: 50.4% !important;
+                top: 34.3% !important;
             }
         }
 

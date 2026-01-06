@@ -33,6 +33,13 @@ body .inner img {
     width: 95px;
   }
 }
+@media (max-width: 375px) {
+  body .inner img {
+    top: 13px;
+    right: 40%;
+    width: 95px;
+  }
+}
 @media (max-width: 320px) {
   body .inner img {
     top: 14px;
@@ -72,6 +79,16 @@ body .inner .light-a:hover img {
   body .inner .light-a {
     right: 50.4% !important;
     top: 44.3% !important;
+  }
+}
+@media (max-width: 375px) {
+  body {
+    background-size: 181% 79% !important;
+    background-position: 47% 0%;
+  }
+  body .inner .light-a {
+    right: 50.4% !important;
+    top: 34.3% !important;
   }
 }
 @media (max-width: 320px) {
