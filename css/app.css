@@ -17,13 +17,23 @@ body {
   }
 }
 @media (max-width: 425px) {
-  body body {
+  body {
     background-position: 46% 240%;
     background-size: 195% 100%;
   }
-  body body .inner .light-a {
+  body .inner .light-a {
     right: 50.4% !important;
     top: 44.3% !important;
+  }
+}
+@media (max-width: 320px) {
+  body {
+    background-position: 47% 0%;
+    background-size: 185% 70%;
+  }
+  body .inner .light-a {
+    right: 49.4% !important;
+    top: 29.3% !important;
   }
 }
 body .inner {
@@ -46,6 +56,13 @@ body .inner img {
     top: 20px;
     right: 40%;
     width: 95px;
+  }
+}
+@media (max-width: 320px) {
+  body .inner img {
+    top: 14px;
+    right: 39%;
+    width: 76px;
   }
 }
 body .inner .light-a {
