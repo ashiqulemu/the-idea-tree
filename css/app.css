@@ -11,31 +11,6 @@ body {
   background-position: 100% 79%;
   height: 100vh;
 }
-@media (max-width: 768px) {
-  body {
-    background-position: 46% 79%;
-  }
-}
-@media (max-width: 425px) {
-  body {
-    background-position: 46% 240%;
-    background-size: 195% 100%;
-  }
-  body .inner .light-a {
-    right: 50.4% !important;
-    top: 44.3% !important;
-  }
-}
-@media (max-width: 320px) {
-  body {
-    background-position: 47% 0%;
-    background-size: 185% 70%;
-  }
-  body .inner .light-a {
-    right: 49.4% !important;
-    top: 29.3% !important;
-  }
-}
 body .inner {
   position: relative;
   height: 100vh;
@@ -83,4 +58,29 @@ body .inner .light-a {
 body .inner .light-a:hover img {
   opacity: 1;
   transform: scale(1.1);
+}
+@media (max-width: 768px) {
+  body {
+    background-position: 46% 79%;
+  }
+}
+@media (max-width: 425px) {
+  body {
+    background-position: 46% 240%;
+    background-size: 195% 100%;
+  }
+  body .inner .light-a {
+    right: 50.4% !important;
+    top: 44.3% !important;
+  }
+}
+@media (max-width: 320px) {
+  body {
+    background-position: 47% 0%;
+    background-size: 185% 70%;
+  }
+  body .inner .light-a {
+    right: 49.4% !important;
+    top: 29.3% !important;
+  }
 }/*# sourceMappingURL=app.css.map */
