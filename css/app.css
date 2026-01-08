@@ -185,8 +185,8 @@ body .inner .light-i:focus img {
 }
 @media (max-width: 425px) {
   body {
-    background-position: 46% 240%;
-    background-size: 195% 100%;
+    background-size: 233% 99%;
+    background-position: 46% 0% !important;
   }
   body .inner img {
     top: 20px;
@@ -227,13 +227,13 @@ body .inner .light-i:focus img {
 }
 @media (min-width: 376px) and (max-width: 392px) {
   body {
-    background-size: 228% 87%;
+    background-size: 233% 99%;
     background-position: 46% 0% !important;
   }
 }
 @media (max-width: 375px) {
   body {
-    background-size: 230% 100% !important;
+    background-size: 234% 84% !important;
     background-position: 46% 0%;
   }
   body .inner img {
@@ -276,7 +276,7 @@ body .inner .light-i:focus img {
 @media (max-width: 320px) {
   body {
     background-position: 47% 0%;
-    background-size: 184% 104% !important;
+    background-size: 228% 104% !important;
     zoom: 0.7;
   }
   body .inner img {
@@ -323,6 +323,6 @@ body .inner .light-i:focus img {
 }
 @media (max-width: 768px) {
   body {
-    background-position: 46% 79%;
+    background-position: 46% 0%;
   }
 }/*# sourceMappingURL=app.css.map */
