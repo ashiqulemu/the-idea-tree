@@ -275,7 +275,8 @@ body .inner .light-i:focus img {
 @media (max-width: 320px) {
   body {
     background-position: 47% 0%;
-    background-size: 234% 84% !important;
+    background-size: 184% 104% !important;
+    zoom: 0.7;
   }
   body .inner img {
     top: 14px;
