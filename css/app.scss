@@ -35,10 +35,8 @@ body {
             right: 53.4%;
             top: 36.3%;
             position: absolute;
-            cursor: pointer;
-            background-image: url('../images/b.png');
-            background-size: cover;
-            &:hover {
+            cursor: pointer; 
+            &:focus { 
                 img {
                     opacity: 1;
                     transform: scale(1.1);
@@ -55,7 +53,7 @@ body {
             position: absolute;
             cursor: pointer;
 
-            &:hover {
+            &:focus {
                 img {
                     opacity: 1;
                     transform: scale(1.1);
@@ -72,7 +70,7 @@ body {
             position: absolute;
             cursor: pointer;
 
-            &:hover {
+            &:focus {
                 img {
                     opacity: 1;
                     transform: scale(1.1);
@@ -89,7 +87,7 @@ body {
             position: absolute;
             cursor: pointer;
 
-            &:hover {
+            &:focus {
                 img {
                     opacity: 1;
                     transform: scale(1.1);
@@ -106,7 +104,7 @@ body {
             position: absolute;
             cursor: pointer;
 
-            &:hover {
+            &:focus {
                 img {
                     opacity: 1;
                     transform: scale(1.1);
@@ -123,7 +121,7 @@ body {
             position: absolute;
             cursor: pointer;
 
-            &:hover {
+            &:focus {
                 img {
                     opacity: 1;
                     transform: scale(1.1);
@@ -140,7 +138,7 @@ body {
             position: absolute;
             cursor: pointer;
 
-            &:hover {
+            &:focus {
                 img {
                     opacity: 1;
                     transform: scale(1.1);
@@ -157,7 +155,7 @@ body {
             position: absolute;
             cursor: pointer;
 
-            &:hover {
+            &:focus {
                 img {
                     opacity: 1;
                     transform: scale(1.1);
@@ -174,7 +172,7 @@ body {
             position: absolute;
             cursor: pointer; 
 
-            &:hover {
+            &:focus {
                 img {
                     opacity: 1;
                     transform: scale(1.1);

@@ -35,10 +35,8 @@ body .inner .light-a {
   top: 36.3%;
   position: absolute;
   cursor: pointer;
-  background-image: url("../images/b.png");
-  background-size: cover;
 }
-body .inner .light-a:hover img {
+body .inner .light-a:focus img {
   opacity: 1;
   transform: scale(1.1);
 }
@@ -51,7 +49,7 @@ body .inner .light-b {
   position: absolute;
   cursor: pointer;
 }
-body .inner .light-b:hover img {
+body .inner .light-b:focus img {
   opacity: 1;
   transform: scale(1.1);
 }
@@ -64,7 +62,7 @@ body .inner .light-c {
   position: absolute;
   cursor: pointer;
 }
-body .inner .light-c:hover img {
+body .inner .light-c:focus img {
   opacity: 1;
   transform: scale(1.1);
 }
@@ -77,7 +75,7 @@ body .inner .light-d {
   position: absolute;
   cursor: pointer;
 }
-body .inner .light-d:hover img {
+body .inner .light-d:focus img {
   opacity: 1;
   transform: scale(1.1);
 }
@@ -90,7 +88,7 @@ body .inner .light-e {
   position: absolute;
   cursor: pointer;
 }
-body .inner .light-e:hover img {
+body .inner .light-e:focus img {
   opacity: 1;
   transform: scale(1.1);
 }
@@ -103,7 +101,7 @@ body .inner .light-f {
   position: absolute;
   cursor: pointer;
 }
-body .inner .light-f:hover img {
+body .inner .light-f:focus img {
   opacity: 1;
   transform: scale(1.1);
 }
@@ -116,7 +114,7 @@ body .inner .light-g {
   position: absolute;
   cursor: pointer;
 }
-body .inner .light-g:hover img {
+body .inner .light-g:focus img {
   opacity: 1;
   transform: scale(1.1);
 }
@@ -129,7 +127,7 @@ body .inner .light-h {
   position: absolute;
   cursor: pointer;
 }
-body .inner .light-h:hover img {
+body .inner .light-h:focus img {
   opacity: 1;
   transform: scale(1.1);
 }
@@ -142,7 +140,7 @@ body .inner .light-i {
   position: absolute;
   cursor: pointer;
 }
-body .inner .light-i:hover img {
+body .inner .light-i:focus img {
   opacity: 1;
   transform: scale(1.1);
 }
