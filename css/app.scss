@@ -288,18 +288,34 @@ body {
         }
 
         background-size: 233% 99%;
-        background-position: 46% 0%!important;
+        background-position: 46% 0% !important;
     }
 }
 
- @media(min-width:376px) and (max-width:745px){
-   
-    body{
-               background-size: 240% 86%;
-               background-position: 46% 0%!important;
+@media(min-width:376px) and (max-width:745px) {
+
+    body {
+        background-size: 240% 86%;
+        background-position: 46% 0% !important;
+
+        .inner {
+            .light-b {
+                right: 20.6%;
+                top: 50.3%;
+            }
+
+            .light-d {
+                right: 81.2%;
+                top: 57.3%;
+            }
+            .light-d {
+                right: 3.7%;
+                top: 46.3%;
+            }
+        }
     }
 
- }
+}
 
 @media (max-width: 375px) {
     body {
@@ -351,7 +367,7 @@ body {
             }
         }
 
-         background-size: 246% 100% !important;
+        background-size: 246% 100% !important;
         background-position: 46% 0%;
     }
 }

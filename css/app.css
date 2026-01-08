@@ -230,6 +230,18 @@ body .inner .light-i:focus img {
     background-size: 240% 86%;
     background-position: 46% 0% !important;
   }
+  body .inner .light-b {
+    right: 20.6%;
+    top: 50.3%;
+  }
+  body .inner .light-d {
+    right: 81.2%;
+    top: 57.3%;
+  }
+  body .inner .light-d {
+    right: 3.7%;
+    top: 46.3%;
+  }
 }
 @media (max-width: 375px) {
   body {
