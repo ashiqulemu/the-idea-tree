@@ -267,10 +267,15 @@ body .inner .light-i:focus img {
     right: 1.7%;
   }
 }
+@media (max-width: 768px) {
+  body {
+    background-position: 46% 79%;
+  }
+}
 @media (max-width: 320px) {
   body {
     background-position: 47% 0%;
-    background-size: 185% 70%;
+    background-size: 234% 84% !important;
   }
   body .inner img {
     top: 14px;
@@ -280,10 +285,5 @@ body .inner .light-i:focus img {
   body .inner .light-a {
     right: 49.4% !important;
     top: 43.3% !important;
-  }
-}
-@media (max-width: 768px) {
-  body {
-    background-position: 46% 79%;
   }
 }/*# sourceMappingURL=app.css.map */

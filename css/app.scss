@@ -344,6 +344,14 @@ body {
     }
 }
 
+
+
+@media (max-width: 768px) {
+    body {
+        background-position: 46% 79%;
+    }
+}
+
 @media (max-width: 320px) {
     body {
         .inner {
@@ -360,12 +368,6 @@ body {
         }
 
         background-position: 47% 0%;
-        background-size: 185% 70%;
-    }
-}
-
-@media (max-width: 768px) {
-    body {
-        background-position: 46% 79%;
+        background-size: 234% 84% !important;
     }
 }
