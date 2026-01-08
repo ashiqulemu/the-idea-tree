@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -26,27 +27,6 @@ body .inner img {
   transition: all 0.4s ease-in-out;
   transform: scale(0);
 }
-@media (max-width: 425px) {
-  body .inner img {
-    top: 20px;
-    right: 40%;
-    width: 95px;
-  }
-}
-@media (max-width: 375px) {
-  body .inner img {
-    top: 13px;
-    right: 40%;
-    width: 95px;
-  }
-}
-@media (max-width: 320px) {
-  body .inner img {
-    top: 14px;
-    right: 39%;
-    width: 76px;
-  }
-}
 body .inner .light-a {
   height: 45px;
   width: 45px;
@@ -56,19 +36,151 @@ body .inner .light-a {
   position: absolute;
   cursor: pointer;
 }
-@media (max-width: 425px) {
-  body .inner .light-a {
-    right: 51.4%;
-    top: 43.3%;
-  }
-}
 body .inner .light-a:hover img {
   opacity: 1;
   transform: scale(1.1);
 }
+body .inner .light-b {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  right: 40.6%;
+  top: 55.3%;
+  position: absolute;
+  cursor: pointer;
+}
+body .inner .light-b:hover img {
+  opacity: 1;
+  transform: scale(1.1);
+}
+body .inner .light-c {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  right: 42%;
+  top: 31.3%;
+  position: absolute;
+  cursor: pointer;
+}
+body .inner .light-c:hover img {
+  opacity: 1;
+  transform: scale(1.1);
+}
+body .inner .light-d {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  right: 66.2%;
+  top: 66.3%;
+  position: absolute;
+  cursor: pointer;
+}
+body .inner .light-d:hover img {
+  opacity: 1;
+  transform: scale(1.1);
+}
+body .inner .light-e {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  right: 70.2%;
+  top: 38.3%;
+  position: absolute;
+  cursor: pointer;
+}
+body .inner .light-e:hover img {
+  opacity: 1;
+  transform: scale(1.1);
+}
+body .inner .light-f {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  right: 63.9%;
+  top: 49.3%;
+  position: absolute;
+  cursor: pointer;
+}
+body .inner .light-f:hover img {
+  opacity: 1;
+  transform: scale(1.1);
+}
+body .inner .light-g {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  right: 62.3%;
+  top: 41.3%;
+  position: absolute;
+  cursor: pointer;
+}
+body .inner .light-g:hover img {
+  opacity: 1;
+  transform: scale(1.1);
+}
+body .inner .light-h {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  right: 33.7%;
+  top: 48.3%;
+  position: absolute;
+  cursor: pointer;
+}
+body .inner .light-h:hover img {
+  opacity: 1;
+  transform: scale(1.1);
+}
+body .inner .light-i {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  right: 31.7%;
+  top: 37.3%;
+  position: absolute;
+  cursor: pointer;
+}
+body .inner .light-i:hover img {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
 @media (max-width: 768px) {
-  body {
-    background-position: 46% 79%;
+  body .inner .light-a {
+    right: 52.6%;
+    top: 44.3%;
+  }
+  body .inner .light-b {
+    right: 34.6%;
+    top: 59.3%;
+  }
+  body .inner .light-c {
+    right: 37%;
+    top: 39.3%;
+  }
+  body .inner .light-d {
+    right: 69.2%;
+    top: 67.3%;
+  }
+  body .inner .light-e {
+    right: 75.2%;
+    top: 44.3%;
+  }
+  body .inner .light-f {
+    right: 66.9%;
+    top: 54.3%;
+  }
+  body .inner .light-g {
+    right: 64.3%;
+    top: 46.3%;
+  }
+  body .inner .light-h {
+    right: 24.7%;
+    top: 53.3%;
+  }
+  body .inner .light-i {
+    right: 22.7%;
+    top: 44.3%;
   }
 }
 @media (max-width: 425px) {
@@ -76,9 +188,41 @@ body .inner .light-a:hover img {
     background-position: 46% 240%;
     background-size: 195% 100%;
   }
+  body .inner img {
+    top: 20px;
+    right: 40%;
+    width: 95px;
+  }
   body .inner .light-a {
     right: 50.4% !important;
     top: 44.3% !important;
+  }
+  body .inner .light-b {
+    right: 25.6%;
+    top: 59.3%;
+  }
+  body .inner .light-c {
+    right: 28%;
+  }
+  body .inner .light-d {
+    right: 75.2%;
+    top: 67.3%;
+  }
+  body .inner .light-e {
+    right: 82.2%;
+  }
+  body .inner .light-f {
+    right: 70.9%;
+  }
+  body .inner .light-g {
+    right: 67.3%;
+    top: 46.3%;
+  }
+  body .inner .light-h {
+    right: 11.7%;
+  }
+  body .inner .light-i {
+    right: 8.7%;
   }
 }
 @media (max-width: 375px) {
@@ -86,9 +230,41 @@ body .inner .light-a:hover img {
     background-size: 230% 100% !important;
     background-position: 46% 0%;
   }
+  body .inner img {
+    top: 13px;
+    right: 40%;
+    width: 95px;
+  }
   body .inner .light-a {
     right: 50.4% !important;
     top: 44.3% !important;
+  }
+  body .inner .light-b {
+    right: 21.4% !important;
+    top: 59.3% !important;
+  }
+  body .inner .light-c {
+    right: 25% !important;
+  }
+  body .inner .light-d {
+    right: 80.2%;
+    top: 68.3%;
+  }
+  body .inner .light-e {
+    right: 87.2%;
+  }
+  body .inner .light-f {
+    right: 73.9%;
+  }
+  body .inner .light-g {
+    right: 70.3%;
+    top: 46.3%;
+  }
+  body .inner .light-h {
+    right: 4.7%;
+  }
+  body .inner .light-i {
+    right: 1.7%;
   }
 }
 @media (max-width: 320px) {
@@ -96,8 +272,18 @@ body .inner .light-a:hover img {
     background-position: 47% 0%;
     background-size: 185% 70%;
   }
+  body .inner img {
+    top: 14px;
+    right: 39%;
+    width: 76px;
+  }
   body .inner .light-a {
     right: 49.4% !important;
-    top: 29.3% !important;
+    top: 43.3% !important;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    background-position: 46% 79%;
   }
 }/*# sourceMappingURL=app.css.map */
