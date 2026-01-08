@@ -35,8 +35,9 @@ body {
             right: 53.4%;
             top: 36.3%;
             position: absolute;
-            cursor: pointer; 
-            &:focus { 
+            cursor: pointer;
+
+            &:focus {
                 img {
                     opacity: 1;
                     transform: scale(1.1);
@@ -170,7 +171,7 @@ body {
             right: 31.7%;
             top: 37.3%;
             position: absolute;
-            cursor: pointer; 
+            cursor: pointer;
 
             &:focus {
                 img {
@@ -280,6 +281,7 @@ body {
             .light-h {
                 right: 11.7%;
             }
+
             .light-i {
                 right: 8.7%;
             }
@@ -289,6 +291,15 @@ body {
         background-size: 195% 100%;
     }
 }
+
+ @media(min-width:376px) and (max-width:392px){
+   
+    body{
+        background-size: 228% 87%;
+        background-position: 46% 0%!important;
+    }
+
+ }
 
 @media (max-width: 375px) {
     body {
@@ -334,6 +345,7 @@ body {
             .light-h {
                 right: 4.7%;
             }
+
             .light-i {
                 right: 1.7%;
             }
@@ -341,14 +353,6 @@ body {
 
         background-size: 230% 100% !important;
         background-position: 46% 0%;
-    }
-}
-
-
-
-@media (max-width: 768px) {
-    body {
-        background-position: 46% 79%;
     }
 }
 
@@ -362,13 +366,59 @@ body {
             }
 
             .light-a {
-                right: 49.4% !important;
-                top: 43.3% !important;
+                right: 52.4% !important;
+                top: 45.3% !important;
+            }
+
+            .light-b {
+                right: 28.4% !important;
+                top: 60.3% !important;
+            }
+
+            .light-c {
+                right: 28.4% !important;
+                top: 60.3% !important;
+            }
+
+            .light-d {
+                right: 75.2%;
+                top: 69.3%;
+            }
+
+            .light-e {
+                right: 82.2%;
+                top: 46%;
+            }
+
+            .light-f {
+                top: 56.3%;
+                right: 71.9%;
+            }
+
+            .light-g {
+                right: 68.3%;
+                top: 47.3%;
+            }
+
+            .light-h {
+                top: 54%;
+                right: 15.7%;
+            }
+
+            .light-i {
+                top: 46%;
+                right: 12.7%;
             }
         }
 
-               background-position: 47% 0%;
+        background-position: 47% 0%;
         background-size: 184% 104% !important;
         zoom: 0.7;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        background-position: 46% 79%;
     }
 }

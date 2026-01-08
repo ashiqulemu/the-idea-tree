@@ -225,6 +225,12 @@ body .inner .light-i:focus img {
     right: 8.7%;
   }
 }
+@media (min-width: 376px) and (max-width: 392px) {
+  body {
+    background-size: 228% 87%;
+    background-position: 46% 0% !important;
+  }
+}
 @media (max-width: 375px) {
   body {
     background-size: 230% 100% !important;
@@ -267,11 +273,6 @@ body .inner .light-i:focus img {
     right: 1.7%;
   }
 }
-@media (max-width: 768px) {
-  body {
-    background-position: 46% 79%;
-  }
-}
 @media (max-width: 320px) {
   body {
     background-position: 47% 0%;
@@ -284,7 +285,44 @@ body .inner .light-i:focus img {
     width: 76px;
   }
   body .inner .light-a {
-    right: 49.4% !important;
-    top: 43.3% !important;
+    right: 52.4% !important;
+    top: 45.3% !important;
+  }
+  body .inner .light-b {
+    right: 28.4% !important;
+    top: 60.3% !important;
+  }
+  body .inner .light-c {
+    right: 28.4% !important;
+    top: 60.3% !important;
+  }
+  body .inner .light-d {
+    right: 75.2%;
+    top: 69.3%;
+  }
+  body .inner .light-e {
+    right: 82.2%;
+    top: 46%;
+  }
+  body .inner .light-f {
+    top: 56.3%;
+    right: 71.9%;
+  }
+  body .inner .light-g {
+    right: 68.3%;
+    top: 47.3%;
+  }
+  body .inner .light-h {
+    top: 54%;
+    right: 15.7%;
+  }
+  body .inner .light-i {
+    top: 46%;
+    right: 12.7%;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    background-position: 46% 79%;
   }
 }/*# sourceMappingURL=app.css.map */
