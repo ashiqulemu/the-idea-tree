@@ -35,6 +35,8 @@ body .inner .light-a {
   top: 36.3%;
   position: absolute;
   cursor: pointer;
+  background-image: url("../images/b.png");
+  background-size: cover;
 }
 body .inner .light-a:hover img {
   opacity: 1;
