@@ -227,7 +227,7 @@ body .inner .light-i:focus img {
 }
 @media (min-width: 376px) and (max-width: 392px) {
   body {
-    background-size: 233% 99%;
+    background-size: 233% 84%;
     background-position: 46% 0% !important;
   }
 }
