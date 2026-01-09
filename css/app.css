@@ -237,7 +237,7 @@ body .inner .light-i:focus img {
 @media (min-width: 376px) and (max-width: 745px) {
   body {
     background-size: 239% 92%;
-    background-position: 46% 105% !important;
+    background-position: 46% 104% !important;
   }
   body .inner .light-a {
     right: 51.4%;
