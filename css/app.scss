@@ -4,14 +4,17 @@
     padding: 0;
     box-sizing: border-box;
 }
-.top-sec{
+
+.top-sec {
     background: #d5d5d5;
-    .heading{
+
+    .heading {
         font-size: 3rem;
         text-align: center;
-        padding:5px;
+        padding: 5px;
     }
 }
+
 body {
     background: url(../images/bg-modify.jpg);
     background-repeat: no-repeat;
@@ -248,14 +251,14 @@ body {
     body {
         .inner {
             img {
-                top: 20px;
-                right: 40%;
+                top: 11.6%;
+                right: 38%;
                 width: 95px;
             }
 
             .light-a {
                 right: 50.4% !important;
-                top: 44.3% !important;
+                top: 40.3% !important;
             }
 
             .light-b {
@@ -302,19 +305,25 @@ body {
 @media(min-width:376px) and (max-width:745px) {
 
     body {
-        background-size: 240% 86%;
-        background-position: 46% 0% !important;
+        background-size: 239% 92%;
+        background-position: 46% 100% !important;
 
         .inner {
+            .light-a {
+                right: 51.4%;
+                top: 40.3%;
+            }
+
             .light-b {
                 right: 20.6%;
-                top: 50.3%;
+                top: 53.3%;
             }
 
             .light-d {
                 right: 81.2%;
                 top: 57.3%;
             }
+
             .light-d {
                 right: 3.7%;
                 top: 46.3%;
