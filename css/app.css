@@ -237,7 +237,7 @@ body .inner .light-i:focus img {
 @media (min-width: 376px) and (max-width: 745px) {
   body {
     background-size: 239% 92%;
-    background-position: 46% 100% !important;
+    background-position: 46% 111% !important;
   }
   body .inner .light-a {
     right: 51.4%;
@@ -247,13 +247,29 @@ body .inner .light-i:focus img {
     right: 20.6%;
     top: 53.3%;
   }
-  body .inner .light-d {
-    right: 81.2%;
-    top: 57.3%;
+  body .inner .light-c {
+    right: 24%;
+    top: 36.3%;
   }
   body .inner .light-d {
     right: 3.7%;
-    top: 46.3%;
+    top: 48.3%;
+  }
+  body .inner .light-e {
+    right: 89.2%;
+    top: 41.2%;
+  }
+  body .inner .light-f {
+    right: 74.9%;
+    top: 50.3%;
+  }
+  body .inner .light-h {
+    right: 80.7%;
+    top: 61%;
+  }
+  body .inner .light-i {
+    top: 47.3%;
+    right: 3%;
   }
 }
 @media (max-width: 375px) {
