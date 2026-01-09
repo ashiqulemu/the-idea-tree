@@ -5,11 +5,20 @@
   box-sizing: border-box;
 }
 
+.top-sec {
+  background: gray;
+}
+.top-sec .heading {
+  font-size: 3rem;
+  text-align: center;
+  padding: 5px;
+}
+
 body {
   background: url(../images/bg-modify.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 100% 79%;
+  background-position: 100% -9vh;
   height: 100vh;
 }
 body .inner {
