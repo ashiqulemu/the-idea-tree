@@ -15,10 +15,10 @@
 }
 
 body {
-    background: url(../images/bg-modify.jpg);
+    background: url(../images/1920-x-1080.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 100% -9vh;
+    background-position: 100% -3vh;
     height: 100vh;
 
     .inner {
@@ -118,7 +118,7 @@ body {
     }
 
     @media (max-width: 425px) {
-        background-size: 233% 99%;
+       background-size: 242% 88%;
         background-position: 46% 0% !important;
 
         .light-a {
