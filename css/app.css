@@ -2,7 +2,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 .top-sec {
@@ -25,171 +24,74 @@ body .inner {
   position: relative;
   height: 100vh;
   width: 100%;
+  margin: 0 auto;
 }
 body .inner img {
-  opacity: 0;
   width: 160px;
   height: auto;
-  position: fixed;
-  top: 45%;
-  right: 9%;
-  transition: all 0.4s ease-in-out;
-  transform: scale(0);
+  filter: grayscale(1);
+}
+@media (max-width: 768px) {
+  body .inner img {
+    width: 90px;
+  }
+}
+body .inner img:hover {
+  filter: grayscale(0);
 }
 body .inner .light-a {
-  height: 45px;
-  width: 45px;
-  border-radius: 50%;
-  right: 53.4%;
-  top: 36.3%;
   position: absolute;
-  cursor: pointer;
-}
-body .inner .light-a:focus img {
-  opacity: 1;
-  transform: scale(1.1);
+  right: 10px;
+  top: 8%;
 }
 body .inner .light-b {
-  height: 45px;
-  width: 45px;
-  border-radius: 50%;
-  right: 40.6%;
-  top: 55.3%;
   position: absolute;
-  cursor: pointer;
-}
-body .inner .light-b:focus img {
-  opacity: 1;
-  transform: scale(1.1);
+  right: 10px;
+  top: 24%;
 }
 body .inner .light-c {
-  height: 45px;
-  width: 45px;
-  border-radius: 50%;
-  right: 42%;
-  top: 31.3%;
   position: absolute;
-  cursor: pointer;
-}
-body .inner .light-c:focus img {
-  opacity: 1;
-  transform: scale(1.1);
+  right: 10px;
+  top: 41%;
 }
 body .inner .light-d {
-  height: 45px;
-  width: 45px;
-  border-radius: 50%;
-  right: 66.2%;
-  top: 66.3%;
   position: absolute;
-  cursor: pointer;
-}
-body .inner .light-d:focus img {
-  opacity: 1;
-  transform: scale(1.1);
+  right: 10px;
+  bottom: 32%;
 }
 body .inner .light-e {
-  height: 45px;
-  width: 45px;
-  border-radius: 50%;
-  right: 70.2%;
-  top: 38.3%;
   position: absolute;
-  cursor: pointer;
-}
-body .inner .light-e:focus img {
-  opacity: 1;
-  transform: scale(1.1);
+  right: 10px;
+  bottom: 15%;
 }
 body .inner .light-f {
-  height: 45px;
-  width: 45px;
-  border-radius: 50%;
-  right: 63.9%;
-  top: 49.3%;
   position: absolute;
-  cursor: pointer;
-}
-body .inner .light-f:focus img {
-  opacity: 1;
-  transform: scale(1.1);
+  left: 10px;
+  top: 8%;
 }
 body .inner .light-g {
-  height: 45px;
-  width: 45px;
-  border-radius: 50%;
-  right: 62.3%;
-  top: 41.3%;
   position: absolute;
-  cursor: pointer;
-}
-body .inner .light-g:focus img {
-  opacity: 1;
-  transform: scale(1.1);
+  left: 10px;
+  top: 27%;
 }
 body .inner .light-h {
-  height: 45px;
-  width: 45px;
-  border-radius: 50%;
-  right: 33.7%;
-  top: 48.3%;
   position: absolute;
-  cursor: pointer;
-}
-body .inner .light-h:focus img {
-  opacity: 1;
-  transform: scale(1.1);
+  left: 10px;
+  top: 49%;
 }
 body .inner .light-i {
-  height: 45px;
-  width: 45px;
-  border-radius: 50%;
-  right: 31.7%;
-  top: 37.3%;
   position: absolute;
-  cursor: pointer;
+  left: 10px;
+  bottom: 20%;
 }
-body .inner .light-i:focus img {
-  opacity: 1;
-  transform: scale(1.1);
+@media (max-width: 1024px) {
+  body {
+    background-position: 46% 0%;
+  }
 }
-
 @media (max-width: 768px) {
-  body .inner .light-a {
-    right: 52.6%;
-    top: 44.3%;
-  }
-  body .inner .light-b {
-    right: 34.6%;
-    top: 59.3%;
-  }
-  body .inner .light-c {
-    right: 37%;
-    top: 39.3%;
-  }
-  body .inner .light-d {
-    right: 69.2%;
-    top: 67.3%;
-  }
-  body .inner .light-e {
-    right: 75.2%;
-    top: 44.3%;
-  }
-  body .inner .light-f {
-    right: 66.9%;
-    top: 54.3%;
-  }
-  body .inner .light-g {
-    right: 64.3%;
-    top: 46.3%;
-  }
-  body .inner .light-h {
-    right: 24.7%;
-    top: 53.3%;
-  }
-  body .inner .light-i {
-    right: 22.7%;
-    top: 44.3%;
+  body {
+    background-position: 46% 0%;
   }
 }
 @media (max-width: 425px) {
@@ -197,79 +99,11 @@ body .inner .light-i:focus img {
     background-size: 233% 99%;
     background-position: 46% 0% !important;
   }
-  body .inner img {
-    top: 11.6%;
-    right: 38%;
-    width: 95px;
-  }
-  body .inner .light-a {
-    right: 50.4% !important;
-    top: 40.3% !important;
-  }
-  body .inner .light-b {
-    right: 25.6%;
-    top: 59.3%;
-  }
-  body .inner .light-c {
-    right: 28%;
-  }
-  body .inner .light-d {
-    right: 75.2%;
-    top: 67.3%;
-  }
-  body .inner .light-e {
-    right: 82.2%;
-  }
-  body .inner .light-f {
-    right: 70.9%;
-  }
-  body .inner .light-g {
-    right: 67.3%;
-    top: 46.3%;
-  }
-  body .inner .light-h {
-    right: 11.7%;
-  }
-  body .inner .light-i {
-    right: 8.7%;
-  }
 }
 @media (min-width: 376px) and (max-width: 745px) {
   body {
     background-size: 239% 92%;
     background-position: 46% 104% !important;
-  }
-  body .inner .light-a {
-    right: 51.4%;
-    top: 40.3%;
-  }
-  body .inner .light-b {
-    right: 20.6%;
-    top: 53.3%;
-  }
-  body .inner .light-c {
-    right: 24%;
-    top: 36.3%;
-  }
-  body .inner .light-d {
-    right: 3.7%;
-    top: 48.3%;
-  }
-  body .inner .light-e {
-    right: 89.2%;
-    top: 41.2%;
-  }
-  body .inner .light-f {
-    right: 74.9%;
-    top: 50.3%;
-  }
-  body .inner .light-h {
-    right: 80.7%;
-    top: 61%;
-  }
-  body .inner .light-i {
-    top: 47.3%;
-    right: 3%;
   }
 }
 @media (max-width: 375px) {
@@ -277,93 +111,11 @@ body .inner .light-i:focus img {
     background-size: 246% 100% !important;
     background-position: 46% 0%;
   }
-  body .inner img {
-    top: 13px;
-    right: 40%;
-    width: 95px;
-  }
-  body .inner .light-a {
-    right: 50.4% !important;
-    top: 44.3% !important;
-  }
-  body .inner .light-b {
-    right: 21.4% !important;
-    top: 59.3% !important;
-  }
-  body .inner .light-c {
-    right: 25% !important;
-  }
-  body .inner .light-d {
-    right: 80.2%;
-    top: 68.3%;
-  }
-  body .inner .light-e {
-    right: 87.2%;
-  }
-  body .inner .light-f {
-    right: 73.9%;
-  }
-  body .inner .light-g {
-    right: 70.3%;
-    top: 46.3%;
-  }
-  body .inner .light-h {
-    right: 4.7%;
-  }
-  body .inner .light-i {
-    right: 1.7%;
-  }
 }
 @media (max-width: 320px) {
   body {
     background-position: 47% 0%;
     background-size: 228% 100% !important;
     zoom: 0.7;
-  }
-  body .inner img {
-    top: 14px;
-    right: 39%;
-    width: 76px;
-  }
-  body .inner .light-a {
-    right: 52.4% !important;
-    top: 45.3% !important;
-  }
-  body .inner .light-b {
-    right: 28.4% !important;
-    top: 60.3% !important;
-  }
-  body .inner .light-c {
-    right: 28.4% !important;
-    top: 60.3% !important;
-  }
-  body .inner .light-d {
-    right: 75.2%;
-    top: 69.3%;
-  }
-  body .inner .light-e {
-    right: 82.2%;
-    top: 46%;
-  }
-  body .inner .light-f {
-    top: 56.3%;
-    right: 71.9%;
-  }
-  body .inner .light-g {
-    right: 68.3%;
-    top: 47.3%;
-  }
-  body .inner .light-h {
-    top: 54%;
-    right: 15.7%;
-  }
-  body .inner .light-i {
-    top: 46%;
-    right: 12.7%;
-  }
-}
-@media (max-width: 768px) {
-  body {
-    background-position: 46% 0%;
   }
 }/*# sourceMappingURL=app.css.map */
