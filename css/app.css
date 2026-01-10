@@ -72,7 +72,7 @@ body .inner .light-f {
 body .inner .light-g {
   position: absolute;
   left: 10px;
-  top: 27%;
+  top: 30%;
 }
 body .inner .light-h {
   position: absolute;
@@ -82,7 +82,7 @@ body .inner .light-h {
 body .inner .light-i {
   position: absolute;
   left: 10px;
-  bottom: 20%;
+  bottom: 8%;
 }
 @media (max-width: 1024px) {
   body {
@@ -118,4 +118,14 @@ body .inner .light-i {
     background-size: 228% 100% !important;
     zoom: 0.7;
   }
+}
+
+body::-webkit-scrollbar {
+  background-color: darkgray;
+  width: 4px;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background: #c4c4c4;
 }/*# sourceMappingURL=app.css.map */

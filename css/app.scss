@@ -45,54 +45,63 @@ body {
             position: absolute;
             right: 10px;
             top: 8%;
+            
         }
 
         .light-b {
             position: absolute;
             right: 10px;
             top: 24%;
+            
         }
 
         .light-c {
             position: absolute;
             right: 10px;
             top: 41%;
+            
         }
 
         .light-d {
             position: absolute;
             right: 10px;
             bottom: 32%;
+            
         }
 
         .light-e {
             position: absolute;
             right: 10px;
             bottom: 15%;
+            
         }
 
         .light-f {
             position: absolute;
             left: 10px;
             top: 8%;
+            
         }
 
         .light-g {
             position: absolute;
             left: 10px;
-            top: 27%;
+            top: 30%;
+            
         }
 
         .light-h {
             position: absolute;
             left: 10px;
             top:49%;
+            
         }
 
         .light-i {
             position: absolute;
             left: 10px;
-            bottom: 20%;
+               bottom: 8%;
+            
         }
 
     }
@@ -125,4 +134,14 @@ body {
         background-size: 228% 100% !important;
         zoom: 0.7;
     }
+}
+
+
+body::-webkit-scrollbar {
+  background-color:darkgray;
+  width: 4px;
+}
+body::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background: #c4c4c4;
 }
