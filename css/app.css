@@ -152,7 +152,7 @@ body .inner .light-i {
 @media (min-width: 376px) and (max-width: 745px) {
   body {
     background-size: 239% 92%;
-    background-position: 46% 104% !important;
+    background-position: 46% 62% !important;
   }
 }
 @media (max-width: 375px) {
