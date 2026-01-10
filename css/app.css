@@ -26,6 +26,9 @@ body .inner {
   width: 100%;
   margin: 0 auto;
 }
+body .inner a {
+  outline: none;
+}
 @media (max-width: 768px) {
   body .inner {
     background: radial-gradient(transparent 60%, black);
@@ -35,6 +38,7 @@ body .inner img {
   width: 160px;
   height: auto;
   filter: grayscale(1);
+  opacity: 0.9;
 }
 @media (max-width: 768px) {
   body .inner img {
@@ -43,6 +47,7 @@ body .inner img {
 }
 body .inner img:hover {
   filter: grayscale(0);
+  opacity: 1;
 }
 body .inner .light-a {
   position: absolute;
@@ -82,7 +87,7 @@ body .inner .light-g {
 body .inner .light-h {
   position: absolute;
   left: 10px;
-  top: 50%;
+  top: 53%;
 }
 body .inner .light-i {
   position: absolute;

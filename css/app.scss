@@ -26,13 +26,20 @@ body {
         height: 100vh;
         width: 100%;
         margin: 0 auto;
-        @media(max-width:768px) {
-               background: radial-gradient(transparent 60%, black);
+
+        a {
+            outline: none;
         }
+
+        @media(max-width:768px) {
+            background: radial-gradient(transparent 60%, black);
+        }
+
         img {
             width: 160px;
             height: auto;
             filter: grayscale(1);
+            opacity: 0.9;
 
             @media(max-width:768px) {
                 width: 90px;
@@ -40,6 +47,7 @@ body {
 
             &:hover {
                 filter: grayscale(0);
+                opacity: 1;
             }
         }
 
@@ -90,7 +98,7 @@ body {
         .light-h {
             position: absolute;
             left: 10px;
-            top: 50%;
+                top: 53%;
         }
 
         .light-i {
@@ -120,20 +128,20 @@ body {
 
         .light-b {
             right: 10px;
-         bottom: 26%;
+            bottom: 26%;
             top: unset !important;
         }
 
         .light-c {
             right: 16px !important;
-                   bottom: 36% !important;
+            bottom: 36% !important;
             top: unset !important;
         }
 
         .light-d {
             left: 7% !important;
             bottom: 23% !important;
-            right: unset!important;
+            right: unset !important;
         }
 
         .light-f {
@@ -147,12 +155,13 @@ body {
         }
 
         .light-h {
-          left: 40% !important;
-        bottom: 13% !important;
+            left: 40% !important;
+            bottom: 13% !important;
             top: unset !important;
         }
-        .light-i { 
-            bottom: 12% !important; 
+
+        .light-i {
+            bottom: 12% !important;
         }
 
         .light-e {
