@@ -26,6 +26,11 @@ body .inner {
   width: 100%;
   margin: 0 auto;
 }
+@media (max-width: 768px) {
+  body .inner {
+    background: radial-gradient(transparent 60%, black);
+  }
+}
 body .inner img {
   width: 160px;
   height: auto;
