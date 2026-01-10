@@ -99,6 +99,41 @@ body .inner .light-i {
     background-size: 233% 99%;
     background-position: 46% 0% !important;
   }
+  body .light-a {
+    right: 3% !important;
+    top: 2% !important;
+  }
+  body .light-b {
+    right: 10px;
+    bottom: 24%;
+    top: unset !important;
+  }
+  body .light-c {
+    right: 16px !important;
+    bottom: 34% !important;
+    top: unset !important;
+  }
+  body .light-d {
+    left: 7% !important;
+    bottom: 23% !important;
+  }
+  body .light-f {
+    left: 2% !important;
+    top: 2% !important;
+  }
+  body .light-g {
+    left: 41% !important;
+    top: 2% !important;
+  }
+  body .light-h {
+    left: 42% !important;
+    bottom: 9% !important;
+    top: unset !important;
+  }
+  body .light-e {
+    right: 4% !important;
+    bottom: 9.3% !important;
+  }
 }
 @media (min-width: 376px) and (max-width: 745px) {
   body {
