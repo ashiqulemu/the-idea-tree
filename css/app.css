@@ -105,12 +105,12 @@ body .inner .light-i {
   }
   body .light-b {
     right: 10px;
-    bottom: 24%;
+    bottom: 26%;
     top: unset !important;
   }
   body .light-c {
     right: 16px !important;
-    bottom: 34% !important;
+    bottom: 36% !important;
     top: unset !important;
   }
   body .light-d {
@@ -126,13 +126,16 @@ body .inner .light-i {
     top: 2% !important;
   }
   body .light-h {
-    left: 42% !important;
-    bottom: 9% !important;
+    left: 40% !important;
+    bottom: 13% !important;
     top: unset !important;
+  }
+  body .light-i {
+    bottom: 12% !important;
   }
   body .light-e {
     right: 4% !important;
-    bottom: 9.3% !important;
+    bottom: 13% !important;
   }
 }
 @media (min-width: 376px) and (max-width: 745px) {
