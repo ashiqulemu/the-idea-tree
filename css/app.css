@@ -116,6 +116,7 @@ body .inner .light-i {
   body .light-d {
     left: 7% !important;
     bottom: 23% !important;
+    right: unset !important;
   }
   body .light-f {
     left: 2% !important;
