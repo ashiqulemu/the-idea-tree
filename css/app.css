@@ -34,7 +34,7 @@ body .inner {
 }
 @media (max-width: 425px) {
   body .inner {
-    bottom: 20px;
+    bottom: 60px;
   }
 }
 body .inner .items {
@@ -70,7 +70,7 @@ body .inner .items img:hover {
 }
 @media (max-width: 768px) {
   body {
-    background-position: 46% 0%;
+    background-position: 46% 15%;
   }
 }
 @media (max-width: 425px) {
@@ -82,7 +82,7 @@ body .inner .items img:hover {
 @media (min-width: 376px) and (max-width: 745px) {
   body {
     background-size: 239% 92%;
-    background-position: 46% 62% !important;
+    background-position: 46% 0% !important;
   }
   body .inner .items {
     flex-basis: 15% !important;
