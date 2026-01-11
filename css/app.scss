@@ -26,7 +26,7 @@ body {
         width: 100%;
         margin: 0 auto;
         position: absolute;
-        bottom: 22px;
+        bottom: 15px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -34,7 +34,7 @@ body {
         column-gap: 15px;
 
         .items {
-            flex-basis: 8%;
+            flex-basis: 6%;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -48,7 +48,7 @@ body {
 
             img {
                 width: 100%;
-                filter: grayscale(1);
+               filter: grayscale(1);
                 &:hover{
                     filter: grayscale(0);
                 }
