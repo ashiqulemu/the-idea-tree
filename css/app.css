@@ -35,6 +35,8 @@ body .inner {
 @media (max-width: 425px) {
   body .inner {
     bottom: 60px;
+    -moz-column-gap: 10px;
+         column-gap: 10px;
   }
 }
 body .inner .items {
