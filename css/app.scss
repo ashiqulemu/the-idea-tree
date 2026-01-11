@@ -32,6 +32,9 @@ body {
         justify-content: center;
         -moz-column-gap: 25px;
         column-gap: 15px;
+         @media(max-width:425px) {
+            bottom: 20px;
+         }
 
         .items {
             flex-basis: 6%;
@@ -39,20 +42,28 @@ body {
             align-items: center;
             justify-content: center;
 
-            @media(max-width:768px) { 
-                        flex-basis: 10% !important; 
-            }
-            @media(min-width:375px) and (max-width:745px) { 
-                        flex-basis: 15% !important; 
-            }
-
             img {
                 width: 100%;
-               filter: grayscale(1);
-                &:hover{
+                filter: grayscale(1);
+
+                &:hover {
                     filter: grayscale(0);
                 }
             }
+
+            @media(max-width:768px) {
+                flex-basis: 10% !important;
+                 
+            }
+
+            @media(max-width:425px) {
+                flex-basis: 15% !important; 
+               img {
+                    width: 75% !important;
+                }
+            }
+
+
         }
 
         //     a {
