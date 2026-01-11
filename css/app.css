@@ -19,80 +19,41 @@ body {
   background-size: cover;
   background-position: 100% -3vh;
   height: 100vh;
+  position: relative;
 }
 body .inner {
-  position: relative;
-  height: 100vh;
   width: 100%;
   margin: 0 auto;
+  position: absolute;
+  bottom: 22px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  -moz-column-gap: 25px;
+  column-gap: 15px;
 }
-body .inner a {
-  outline: none;
+body .inner .items {
+  flex-basis: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 @media (max-width: 768px) {
-  body .inner {
-    background: radial-gradient(transparent 60%, black);
+  body .inner .items {
+    flex-basis: 10% !important;
   }
 }
-body .inner img {
-  width: 160px;
-  height: auto;
+@media (min-width: 375px) and (max-width: 745px) {
+  body .inner .items {
+    flex-basis: 15% !important;
+  }
+}
+body .inner .items img {
+  width: 100%;
   filter: grayscale(1);
-  opacity: 0.9;
 }
-@media (max-width: 768px) {
-  body .inner img {
-    width: 90px;
-  }
-}
-body .inner img:hover {
+body .inner .items img:hover {
   filter: grayscale(0);
-  opacity: 1;
-}
-body .inner .light-a {
-  position: absolute;
-  right: 10px;
-  top: 8%;
-}
-body .inner .light-b {
-  position: absolute;
-  right: 10px;
-  top: 26%;
-}
-body .inner .light-c {
-  position: absolute;
-  right: 10px;
-  top: 44%;
-}
-body .inner .light-d {
-  position: absolute;
-  right: 10px;
-  bottom: 32%;
-}
-body .inner .light-e {
-  position: absolute;
-  right: 10px;
-  bottom: 12%;
-}
-body .inner .light-f {
-  position: absolute;
-  left: 10px;
-  top: 8%;
-}
-body .inner .light-g {
-  position: absolute;
-  left: 10px;
-  top: 30%;
-}
-body .inner .light-h {
-  position: absolute;
-  left: 10px;
-  top: 53%;
-}
-body .inner .light-i {
-  position: absolute;
-  left: 10px;
-  bottom: 8%;
 }
 @media (max-width: 1024px) {
   body {
@@ -109,50 +70,14 @@ body .inner .light-i {
     background-size: 242% 88%;
     background-position: 46% 0% !important;
   }
-  body .light-a {
-    right: 3% !important;
-    top: 2% !important;
-  }
-  body .light-b {
-    right: 10px;
-    bottom: 26%;
-    top: unset !important;
-  }
-  body .light-c {
-    right: 16px !important;
-    bottom: 36% !important;
-    top: unset !important;
-  }
-  body .light-d {
-    left: 7% !important;
-    bottom: 23% !important;
-    right: unset !important;
-  }
-  body .light-f {
-    left: 2% !important;
-    top: 2% !important;
-  }
-  body .light-g {
-    left: 41% !important;
-    top: 2% !important;
-  }
-  body .light-h {
-    left: 40% !important;
-    bottom: 13% !important;
-    top: unset !important;
-  }
-  body .light-i {
-    bottom: 12% !important;
-  }
-  body .light-e {
-    right: 4% !important;
-    bottom: 13% !important;
-  }
 }
 @media (min-width: 376px) and (max-width: 745px) {
   body {
     background-size: 239% 92%;
     background-position: 46% 62% !important;
+  }
+  body .inner .items {
+    flex-basis: 15% !important;
   }
 }
 @media (max-width: 375px) {
