@@ -6,6 +6,7 @@
 
 .top-sec {
   background: #d5d5d5;
+  display: none;
 }
 .top-sec .heading {
   font-size: 3rem;
@@ -17,7 +18,7 @@ body {
   background: url(../images/1920-x-1080.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 100% -3vh;
+  background-position: 46%;
   height: 100vh;
   position: relative;
 }
@@ -35,6 +36,8 @@ body .inner {
 @media (max-width: 425px) {
   body .inner {
     bottom: 60px;
+    -moz-column-gap: 10px;
+         column-gap: 10px;
   }
 }
 body .inner .items {
@@ -81,7 +84,7 @@ body .inner .items img:hover {
 }
 @media (min-width: 376px) and (max-width: 745px) {
   body {
-    background-size: 239% 92%;
+    background-size: 214% 100%;
     background-position: 46% 0% !important;
   }
   body .inner .items {

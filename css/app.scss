@@ -6,7 +6,7 @@
 
 .top-sec {
     background: #d5d5d5;
-
+   display: none;
     .heading {
         font-size: 3rem;
         text-align: center;
@@ -18,7 +18,7 @@ body {
     background: url(../images/1920-x-1080.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 100% -3vh;
+    background-position:46%;
     height: 100vh;
     position: relative;
 
@@ -34,6 +34,7 @@ body {
         column-gap: 25px;
          @media(max-width:425px) {
             bottom: 60px;
+             column-gap: 10px;
          }
 
         .items {
@@ -214,7 +215,8 @@ body {
     }
 
     @media(min-width:376px) and (max-width:745px) {
-        background-size: 239% 92%;
+                background-size: 214% 100%;
+
         background-position: 46% 0% !important;
 
         .inner {
