@@ -48,9 +48,13 @@
         font-size: 9rem!important; 
         top: 6%;
     }
+    @media(min-width:1440px) {
+        font-size: 9rem!important; 
+        top: 6%;
+    }
 
     @media(min-width:769px) {
-        font-size: 9rem;
+        font-size: 6rem;
         line-height: 1;
 
         span {
