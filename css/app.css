@@ -11,10 +11,24 @@
 .title {
   font-family: "Doctor.ttf";
   color: #fff;
-  font-size: 3rem;
+  font-size: 8vw;
   text-align: center;
   top: 5%;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.title span {
+  font-size: 4rem;
+}
+@media (max-width: 768px) {
+  .title {
+    flex-direction: column;
+    font-size: 4rem;
+    line-height: 0.8;
+  }
 }
 
 .top-sec {
