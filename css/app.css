@@ -38,6 +38,20 @@ body .box {
     height: 870px;
   }
 }
+@media (max-width: 768px) {
+  body .box {
+    background-position: 45% 0%;
+    background-size: 188%;
+    height: 770px;
+  }
+}
+@media (min-width: 500px) and (max-width: 767px) {
+  body .box {
+    background-position: 45% 0%;
+    background-size: 188%;
+    height: 740px;
+  }
+}
 @media (max-width: 500px) {
   body .box {
     background-position: 45% 0%;
