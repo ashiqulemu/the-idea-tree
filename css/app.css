@@ -35,6 +35,7 @@ body .box {
   body .box {
     background-position: 45% 0%;
     background-size: 188%;
+    height: 870px;
   }
 }
 body .inner {
