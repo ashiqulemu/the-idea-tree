@@ -14,25 +14,49 @@
   font-size: 6vw;
   text-align: center;
   top: 5%;
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   text-shadow: -2px 0px 27px #ffcb55;
+  position: relative;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 0 auto;
+}
+.title:before {
+  content: "the";
+  position: absolute;
+  left: 19px;
+  font-size: 23px;
+  top: -8px;
+}
+.title:after {
+  content: "group";
+  position: absolute;
+  right: 10px;
+  font-size: 23px;
+  bottom: 0;
 }
 @media (min-width: 769px) {
   .title {
-    font-size: 4rem;
-    line-height: 0.8;
+    font-size: 6rem;
+    line-height: 1;
   }
   .title span {
     font-size: 4rem;
+  }
+  .title .first {
+    position: absolute;
+  }
+  .title .last {
+    position: absolute;
   }
 }
 @media (max-width: 768px) {
   .title {
     font-size: 10vw;
+    top: 19px;
   }
   .title span {
     font-size: 2.1rem;
@@ -41,7 +65,8 @@
 }
 @media (max-width: 500px) {
   .title {
-    top: 13px;
+    top: 36px;
+    font-size: 18vw;
   }
 }
 
@@ -142,7 +167,7 @@ body .box .inner .items a img {
 @media (min-width: 701px) and (max-width: 770px) {
   body .box {
     background-position: 49% 78%;
-    background-size: 206%;
+    background-size: 177%;
     height: 100%;
   }
 }
@@ -176,8 +201,15 @@ body .box .inner .items a img {
 }
 @media (max-width: 425px) {
   body .box {
-    background-position: 49% 0%;
-    background-size: 326%;
+    background-position: 49% 70%;
+    background-size: 332%;
+    height: 100%;
+  }
+}
+@media (max-width: 375px) {
+  body .box {
+    background-position: 49% 96%;
+    background-size: 332%;
     height: 100%;
   }
 }
