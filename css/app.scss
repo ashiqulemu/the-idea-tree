@@ -36,9 +36,14 @@ body {
         background-repeat: no-repeat;
 
         @media(max-width:960px) {
-                    background-position: 45% 0%;
-        background-size: 188%;
-        height: 870px;
+            background-position: 45% 0%;
+            background-size: 188%;
+            height: 870px;
+        }
+        @media(max-width:500px) {
+            background-position: 45% 0%;
+            background-size: 188%;
+            height: 570px;
         }
 
     }

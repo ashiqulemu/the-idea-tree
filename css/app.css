@@ -38,6 +38,13 @@ body .box {
     height: 870px;
   }
 }
+@media (max-width: 500px) {
+  body .box {
+    background-position: 45% 0%;
+    background-size: 188%;
+    height: 570px;
+  }
+}
 body .inner {
   width: 100%;
   margin: 0 auto;
