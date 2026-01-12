@@ -13,9 +13,9 @@
 }
 
 .title {
-    font-family: 'Doctor.ttf';
+    font-family: "Doctor.ttf";
     color: #fff;
-    font-size: 8vw;
+    font-size: 6vw;
     text-align: center;
     top: 5%;
     position: relative;
@@ -23,6 +23,8 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    color: #ffda9e;
+    filter: drop-shadow(0px 5px 9px #ffa108);
 
     span {
         font-size: 4rem;
@@ -61,7 +63,7 @@ body {
         height: 100%;
         width: 100%;
         overflow: hidden;
-        background: url(../images/bg-modify-v2.jpg);
+        background: url(../images/bg-modify-v3.jpg);
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
