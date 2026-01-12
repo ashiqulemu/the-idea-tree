@@ -14,23 +14,22 @@
   padding: 5px;
 }
 
+.banner {
+  max-width: 100%;
+  height: auto;
+}
+
 body {
-  background: url(../images/bg-modify-v1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 46%;
   height: 100vh;
   position: relative;
-}
-body .bg-photo {
-  display: none;
-  width: 100%;
+  overflow-x: hidden;
 }
 body .inner {
   width: 100%;
   margin: 0 auto;
-  position: relative;
-  top: 105vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -82,18 +81,6 @@ body .inner .items img {
   body {
     background-size: 242% 88%;
     background-position: 46% 0% !important;
-  }
-}
-@media (min-width: 376px) and (max-width: 745px) {
-  body {
-    background-size: 192% 67%;
-    background-position: 46% 0% !important;
-  }
-  body .inner {
-    top: 66%;
-  }
-  body .inner .items {
-    flex-basis: 15% !important;
   }
 }
 @media (max-width: 375px) {

@@ -15,24 +15,26 @@
     }
 }
 
+.banner{
+    max-width: 100%;
+    height: auto;
+}
+
 body {
-    background: url(../images/bg-modify-v1.jpg);
+    // background: url(../images/bg-modify-v1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 46%;
     height: 100vh;
     position: relative;
+    overflow-x: hidden;
 
-    .bg-photo {
-        display: none;
-        width: 100%;
-    }
+   
 
     .inner {
         width: 100%;
         margin: 0 auto;
-            position: relative;
-            top: 105vh;
+           
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -95,19 +97,19 @@ body {
 
     }
 
-    @media(min-width:376px) and (max-width:745px) {
+    // @media(min-width:376px) and (max-width:745px) {
                
 
-        background-size: 192% 67%;
-        background-position: 46% 0% !important;
+    //     background-size: 192% 67%;
+    //     background-position: 46% 0% !important;
 
-        .inner {
-            top: 66%;
-            .items {
-                flex-basis: 15% !important;
-            }
-        }
-    }
+    //     .inner {
+    //         top: 66%;
+    //         .items {
+    //             flex-basis: 15% !important;
+    //         }
+    //     }
+    // }
 
     @media (max-width: 375px) {
         // background-size: 196% 85% !important;
