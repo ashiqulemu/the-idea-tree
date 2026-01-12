@@ -45,6 +45,13 @@ body .box {
     height: 770px;
   }
 }
+@media (min-width: 501px) and (max-width: 640px) {
+  body .box {
+    background-position: 45% 0%;
+    background-size: 188%;
+    height: 620px;
+  }
+}
 @media (min-width: 500px) and (max-width: 767px) {
   body .box {
     background-position: 45% 0%;
