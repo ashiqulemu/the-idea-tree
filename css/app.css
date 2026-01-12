@@ -21,14 +21,22 @@
   flex-wrap: wrap;
   text-shadow: -2px 0px 27px #ffcb55;
 }
-.title span {
-  font-size: 4rem;
+@media (min-width: 769px) {
+  .title {
+    font-size: 4rem;
+    line-height: 0.8;
+  }
+  .title span {
+    font-size: 4rem;
+  }
 }
 @media (max-width: 768px) {
   .title {
-    flex-direction: column;
-    font-size: 4rem;
-    line-height: 0.8;
+    font-size: 2.7rem;
+  }
+  .title span {
+    font-size: 2.1rem;
+    padding: 0 11px;
   }
 }
 
