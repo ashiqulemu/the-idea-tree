@@ -90,7 +90,7 @@ body .inner .items img {
 }
 @media (max-width: 375px) {
   body {
-    background-size: 246% 100% !important;
+    background-size: 196% 85% !important;
     background-position: 46% 0%;
   }
 }
