@@ -22,9 +22,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    color: #ffda9e;
-    filter: drop-shadow(0px 5px 9px #ffa108);
+    flex-wrap: wrap; 
+    // filter: drop-shadow(0px 5px 9px #ffa108);
+    text-shadow: -2px 0px 27px #ffcb55;
 
     span {
         font-size: 4rem;
