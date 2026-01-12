@@ -29,6 +29,7 @@ body {
     .box {
         height: 100vh;
         width: 100%;
+        overflow: hidden;
 
         img {
             height: 100vh;
@@ -36,6 +37,7 @@ body {
             object-fit: cover; 
             @media(max-width:500px) {
                 object-fit: contain;
+                
                 transform: scale(1.8) translate(9px, -70px);
             }
         }
