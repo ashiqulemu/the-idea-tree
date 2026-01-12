@@ -36,15 +36,15 @@ body {
             width: 100%;
             object-fit: cover; 
             @media(max-width:500px) {
-                object-fit: contain;
-                
+                object-fit: contain; 
                 transform: scale(1.8) translate(9px, -70px);
             }
-        }
+        } 
 
         @media(max-width:500px) {
-            height: 71vh;
-        }
+                height: 410px;
+            }
+         
     }
 
 

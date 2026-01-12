@@ -42,7 +42,7 @@ body .box img {
 }
 @media (max-width: 500px) {
   body .box {
-    height: 71vh;
+    height: 410px;
   }
 }
 body .inner {
