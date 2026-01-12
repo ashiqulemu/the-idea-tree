@@ -31,9 +31,10 @@ body .box {
   background-position: center center;
   background-repeat: no-repeat;
 }
-@media (max-width: 768px) {
+@media (max-width: 960px) {
   body .box {
-    background-position: 46% center;
+    background-position: 45% 0%;
+    background-size: 188%;
   }
 }
 body .inner {
