@@ -32,6 +32,7 @@ body .inner {
   justify-content: center;
   -moz-column-gap: 25px;
   column-gap: 25px;
+  display: none;
 }
 @media (max-width: 425px) {
   body .inner {
