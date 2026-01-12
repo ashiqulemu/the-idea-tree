@@ -30,7 +30,7 @@ body .inner {
   width: 100%;
   margin: 0 auto;
   position: relative;
-  top: 85%;
+  top: 105vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
