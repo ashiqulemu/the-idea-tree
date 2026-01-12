@@ -86,7 +86,7 @@ body .inner .items img {
 }
 @media (min-width: 376px) and (max-width: 745px) {
   body {
-    background-size: 197% 84%;
+    background-size: 192% 67%;
     background-position: 46% 0% !important;
   }
   body .inner .items {
