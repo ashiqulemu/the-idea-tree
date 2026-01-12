@@ -26,16 +26,16 @@ body {
         width: 100%;
         margin: 0 auto;
         position: absolute;
-        bottom: 0;
+        bottom: -120px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         -moz-column-gap: 25px;
         column-gap: 25px; 
         background-color: #fff;
-         @media(max-width:425px) {
-            bottom: 60px;
+         @media(max-width:425px) { 
              column-gap: 10px;
+             bottom: 0;
          }
 
         .items {
@@ -211,7 +211,7 @@ body {
     }
 
     @media(min-width:376px) and (max-width:745px) {
-                background-size: 214% 100%;
+                background-size: 197% 88%;
 
         background-position: 46% 0% !important;
 

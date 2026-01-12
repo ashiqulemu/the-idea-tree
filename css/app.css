@@ -26,7 +26,7 @@ body .inner {
   width: 100%;
   margin: 0 auto;
   position: absolute;
-  bottom: 0;
+  bottom: -120px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -36,9 +36,9 @@ body .inner {
 }
 @media (max-width: 425px) {
   body .inner {
-    bottom: 60px;
     -moz-column-gap: 10px;
          column-gap: 10px;
+    bottom: 0;
   }
 }
 body .inner .items {
@@ -81,7 +81,7 @@ body .inner .items img {
 }
 @media (min-width: 376px) and (max-width: 745px) {
   body {
-    background-size: 214% 100%;
+    background-size: 197% 88%;
     background-position: 46% 0% !important;
   }
   body .inner .items {
