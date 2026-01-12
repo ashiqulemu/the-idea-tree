@@ -89,6 +89,9 @@ body .inner .items img {
     background-size: 192% 67%;
     background-position: 46% 0% !important;
   }
+  body .inner {
+    top: 66%;
+  }
   body .inner .items {
     flex-basis: 15% !important;
   }
