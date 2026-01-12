@@ -39,6 +39,11 @@
     padding: 0 11px;
   }
 }
+@media (max-width: 500px) {
+  .title {
+    top: 13px;
+  }
+}
 
 .top-sec {
   background: #d5d5d5;
@@ -164,7 +169,7 @@ body .box .inner .items a img {
 }
 @media (max-width: 500px) {
   body .box {
-    background-position: 49% 0%;
+    background-position: 49% -20%;
     background-size: 267%;
     height: 100%;
   }
