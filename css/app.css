@@ -40,17 +40,17 @@
 }
 @media (min-width: 1920px) {
   .title {
-    font-size: 9rem;
+    font-size: 7.3vw;
     top: 5%;
   }
 }
 @media (max-width: 1440px) {
   .title {
-    font-size: 7rem;
+    font-size: 6.3vw;
     top: 6%;
   }
 }
-@media (min-width: 769px) {
+@media (max-width: 769px) {
   .title {
     font-size: 6rem;
     line-height: 1;
@@ -76,6 +76,12 @@
   }
 }
 @media (max-width: 500px) {
+  .title {
+    top: 36px;
+    font-size: 18vw;
+  }
+}
+@media (max-width: 392px) {
   .title {
     top: 36px;
     font-size: 18vw;
@@ -221,6 +227,11 @@ body .box .inner .items a img {
 @media (max-width: 402px) {
   body .box {
     background-position: 49% 100%;
+  }
+}
+@media (max-width: 392px) {
+  body .box {
+    background-size: 364%;
   }
 }
 @media (max-width: 375px) {

@@ -45,15 +45,15 @@
     }
 
     @media(min-width:1920px) {
-        font-size: 9rem; 
+        font-size: 7.3vw; 
         top: 5%; 
     }
     @media(max-width:1440px) {
-        font-size: 7rem ;
+        font-size: 6.3vw ;
         top: 6%;
     }
 
-    @media(min-width:769px) {
+    @media(max-width:769px) {
         font-size: 6rem;
         line-height: 1;
 
@@ -82,6 +82,11 @@
     }
 
     @media(max-width:500px) {
+        top: 36px;
+        font-size: 18vw;
+    }
+
+    @media(max-width:392px) {
         top: 36px;
         font-size: 18vw;
     }
@@ -233,6 +238,9 @@ body {
 
         @media(max-width:402px) {
             background-position: 49% 100%;
+        }
+        @media(max-width:392px) {
+            background-size: 364%;
         }
 
         @media(max-width:375px) {
