@@ -6,7 +6,8 @@
 
 .top-sec {
     background: #d5d5d5;
-   display: none;
+    display: none;
+
     .heading {
         font-size: 3rem;
         text-align: center;
@@ -18,25 +19,32 @@ body {
     background: url(../images/bg-modify-v1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:46%;
+    background-position: 46%;
     height: 100vh;
     position: relative;
+
+    .bg-photo {
+        display: none;
+        width: 100%;
+    }
 
     .inner {
         width: 100%;
         margin: 0 auto;
-        position: absolute;
-        bottom: -120px;
+            position: relative;
+    top: 85%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         -moz-column-gap: 25px;
-        column-gap: 25px; 
+        column-gap: 25px;
         background-color: #fff;
-         @media(max-width:425px) { 
-             column-gap: 10px;
-             bottom: 0;
-         }
+        padding: 10px 0;
+
+        @media(max-width:425px) {
+            column-gap: 10px;
+            bottom: 0;
+        }
 
         .items {
             flex-basis: 6%;
@@ -45,17 +53,18 @@ body {
             justify-content: center;
 
             img {
-                width: 100%;  
+                width: 100%;
             }
 
             @media(max-width:768px) {
                 flex-basis: 10% !important;
-                 
+
             }
 
             @media(max-width:425px) {
-                flex-basis: 15% !important; 
-               img {
+                flex-basis: 15% !important;
+
+                img {
                     width: 75% !important;
                 }
             }
@@ -153,12 +162,14 @@ body {
     }
 
     @media (max-width: 768px) {
-        background-position: 46% 15%;
+        background-position: 46% 15%; 
+
+        
     }
 
     @media (max-width: 425px) {
         background-size: 242% 88%;
-        background-position: 46% 0% !important; 
+        background-position: 46% 0% !important;
 
         //     .light-a {
         //         right: 3% !important;
@@ -211,7 +222,7 @@ body {
     }
 
     @media(min-width:376px) and (max-width:745px) {
-                background-size: 197% 88%;
+        background-size: 197% 88%;
 
         background-position: 46% 0% !important;
 
@@ -223,7 +234,11 @@ body {
     }
 
     @media (max-width: 375px) {
-        background-size: 196% 85% !important;
+        // background-size: 196% 85% !important;
+        // background-position: 46% 0%;
+
+        background-size: 174%;
+        background-repeat: no-repeat;
         background-position: 46% 0%;
     }
 

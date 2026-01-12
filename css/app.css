@@ -22,17 +22,22 @@ body {
   height: 100vh;
   position: relative;
 }
+body .bg-photo {
+  display: none;
+  width: 100%;
+}
 body .inner {
   width: 100%;
   margin: 0 auto;
-  position: absolute;
-  bottom: -120px;
+  position: relative;
+  top: 85%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   -moz-column-gap: 25px;
   column-gap: 25px;
   background-color: #fff;
+  padding: 10px 0;
 }
 @media (max-width: 425px) {
   body .inner {
@@ -90,7 +95,8 @@ body .inner .items img {
 }
 @media (max-width: 375px) {
   body {
-    background-size: 196% 85% !important;
+    background-size: 174%;
+    background-repeat: no-repeat;
     background-position: 46% 0%;
   }
 }
