@@ -1,17 +1,28 @@
+
+
+
 /*# sourceMappingURL=app.css.map */
+
+
+ @font-face {
+    font-family: 'Doctor.ttf';
+    src: url('../fonts/Doctor.ttf');
+ }
+
+
 * {
     margin: 0;
     padding: 0;
 }
 
 .title {
-    position: absolute;
-    top: 5%;
+font-family: 'Doctor.ttf';
     color: #fff;
     font-size: 3rem;
     text-align: center;
     top: 5%;
-    left: 37%;
+     
+    position: relative;
 }
 
 .top-sec {
@@ -61,6 +72,7 @@ body {
 
             @media(max-width:768px) {
                 column-gap: 10px;
+                flex-wrap: nowrap;
 
             }
 
@@ -75,10 +87,10 @@ body {
 
                     img {
                         text-align: center;
-                        width: 105px;
+                        width: 75px;
 
                         @media(max-width:768px) {
-                            width: 55px;
+                            width: 45px;
                         }
                     }
                 }
@@ -110,12 +122,13 @@ body {
             height: 870px;
         }
 
-         
+
         @media(min-width:771px) and (max-width:960px) {
-                   background-position: 50% 69%;
-        background-size: 205%; 
+            background-position: 50% 69%;
+            background-size: 205%;
             height: 100%;
         }
+
         @media(min-width:701px) and (max-width:770px) {
             background-position: 49% 78%;
             background-size: 206%;
@@ -143,6 +156,12 @@ body {
         @media(max-width:500px) {
             background-position: 49% 0%;
             background-size: 267%;
+            height: 100%;
+        }
+
+        @media(max-width:425px) {
+            background-position: 49% 0%;
+            background-size: 326%; 
             height: 100%;
         }
 

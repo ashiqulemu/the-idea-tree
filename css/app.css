@@ -1,17 +1,20 @@
 
+@font-face {
+  font-family: "Doctor.ttf";
+  src: url("../fonts/Doctor.ttf");
+}
 * {
   margin: 0;
   padding: 0;
 }
 
 .title {
-  position: absolute;
-  top: 5%;
+  font-family: "Doctor.ttf";
   color: #fff;
   font-size: 3rem;
   text-align: center;
   top: 5%;
-  left: 37%;
+  position: relative;
 }
 
 .top-sec {
@@ -60,6 +63,7 @@ body .box .inner {
   body .box .inner {
     -moz-column-gap: 10px;
          column-gap: 10px;
+    flex-wrap: nowrap;
   }
 }
 body .box .inner .items {
@@ -73,11 +77,11 @@ body .box .inner .items a {
 }
 body .box .inner .items a img {
   text-align: center;
-  width: 105px;
+  width: 75px;
 }
 @media (max-width: 768px) {
   body .box .inner .items a img {
-    width: 55px;
+    width: 45px;
   }
 }
 @media (max-width: 768px) {
@@ -139,6 +143,13 @@ body .box .inner .items a img {
   body .box {
     background-position: 49% 0%;
     background-size: 267%;
+    height: 100%;
+  }
+}
+@media (max-width: 425px) {
+  body .box {
+    background-position: 49% 0%;
+    background-size: 326%;
     height: 100%;
   }
 }
