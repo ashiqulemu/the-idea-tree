@@ -109,14 +109,4 @@ body .inner .items img {
     background-size: 228% 100% !important;
     zoom: 0.7;
   }
-}
-
-body::-webkit-scrollbar {
-  background-color: darkgray;
-  width: 4px;
-}
-
-body::-webkit-scrollbar-thumb {
-  border-radius: 50px;
-  background: #c4c4c4;
 }/*# sourceMappingURL=app.css.map */

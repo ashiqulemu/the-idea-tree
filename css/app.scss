@@ -125,13 +125,3 @@ body {
     }
 }
 
-
-body::-webkit-scrollbar {
-    background-color: darkgray;
-    width: 4px;
-}
-
-body::-webkit-scrollbar-thumb {
-    border-radius: 50px;
-    background: #c4c4c4;
-}
