@@ -213,8 +213,6 @@ body .box .inner .items a img {
 }
 @media (max-width: 375px) {
   body .box {
-    background-position: 49% 96%;
-    background-size: 332%;
-    height: 100%;
+    background-size: 348%;
   }
 }/*# sourceMappingURL=app.css.map */
