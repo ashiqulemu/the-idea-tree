@@ -79,6 +79,7 @@
 
 
 
+
 }
 
 .top-sec {
@@ -221,6 +222,12 @@ body {
             height: 100%;
         }
 
+        @media(max-width:402px) {
+            background-position: 49% 100%; 
+        }
+
+
+
         @media(max-width:375px) {
             background-position: 49% 96%;
             background-size: 332%;
@@ -233,50 +240,28 @@ body {
 
 
 
-    @media (max-width: 1024px) {
-        background-position: 46% 0%;
-    }
-
-    @media (max-width: 768px) {
-        background-position: 46% 15%;
-
-
-    }
-
-    @media (max-width: 425px) {
-        background-size: 242% 88%;
-        background-position: 46% 0% !important;
-
-
-
-    }
-
-    // @media(min-width:376px) and (max-width:745px) {
-
-
-    //     background-size: 192% 67%;
-    //     background-position: 46% 0% !important;
-
-    //     .inner {
-    //         top: 66%;
-    //         .items {
-    //             flex-basis: 15% !important;
-    //         }
-    //     }
+    // @media (max-width: 1024px) {
+    //     background-position: 46% 0%;
     // }
 
-    @media (max-width: 375px) {
-        // background-size: 196% 85% !important;
-        // background-position: 46% 0%;
+    // @media (max-width: 768px) {
+    //     background-position: 46% 15%;
 
-        background-size: 174%;
-        background-repeat: no-repeat;
-        background-position: 46% 0%;
-    }
 
-    @media (max-width: 320px) {
-        background-position: 47% 0%;
-        background-size: 228% 100% !important;
-        zoom: 0.7;
-    }
+    // }
+
+    // @media (max-width: 425px) {
+    //     background-size: 242% 88%;
+    //     background-position: 46% 0% !important;
+    // }
+
+    
+
+
+
+    // @media (max-width: 320px) {
+    //     background-position: 47% 0%;
+    //     background-size: 228% 100% !important;
+    //     zoom: 0.7;
+    // }
 }
