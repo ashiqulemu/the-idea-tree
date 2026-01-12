@@ -38,6 +38,12 @@
   font-size: 23px;
   bottom: 0;
 }
+@media (min-width: 1920px) {
+  .title {
+    font-size: 9rem !important;
+    top: 6%;
+  }
+}
 @media (min-width: 769px) {
   .title {
     font-size: 6rem;
