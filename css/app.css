@@ -229,16 +229,9 @@ body .box .inner .items a img {
     background-position: 49% 100%;
   }
 }
-@media (min-width: 376px) and (max-width: 392px) {
-  body .box {
-    background-position: 47% 101%;
-    background-size: 370%;
-  }
-}
 @media (max-width: 375px) {
   body .box {
-    background-position: 46% -3%;
-    background-size: 232%;
+    background-size: 348%;
   }
 }
 body .branding .box-bg {
