@@ -231,8 +231,8 @@ body .box .inner .items a img {
 }
 @media (min-width: 376px) and (max-width: 392px) {
   body .box {
-    background-position: 48% 101%;
-    background-size: 232%;
+    background-position: 47% 101%;
+    background-size: 370%;
   }
 }
 @media (max-width: 375px) {
