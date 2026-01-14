@@ -45,11 +45,12 @@
     }
 
     @media(min-width:1920px) {
-        font-size: 7.3vw; 
-        top: 5%; 
+        font-size: 7.3vw;
+        top: 5%;
     }
+
     @media(max-width:1440px) {
-        font-size: 7.9vw ;
+        font-size: 7.9vw;
         top: 5%;
     }
 
@@ -241,28 +242,31 @@ body {
         }
 
         @media(min-width:376px) and (max-width:392px) {
-                   background-position: 48% 101%;
-        background-size: 232%;
+            background-position: 48% 101%;
+            background-size: 232%;
         }
 
-        @media(max-width:375px) { 
-            background-size: 348%;
+        @media(max-width:375px) {
+            background-position: 46% -3%;
+            background-size: 232%;
         }
 
     }
 
-    .branding{
-       .box-bg{
-        padding: 5px;
-        background: #f2f2f2;
-        a{
-            display: block;
-            width: 100%;
+    .branding {
+        .box-bg {
+            padding: 5px;
+            background: #f2f2f2;
+
+            a {
+                display: block;
+                width: 100%;
+            }
+
+            @media(max-width:768px) {
+                margin-bottom: 5px;
+            }
         }
-        @media(max-width:768px) {
-           margin-bottom: 5px; 
-        }
-       }
     }
 
 

@@ -237,7 +237,8 @@ body .box .inner .items a img {
 }
 @media (max-width: 375px) {
   body .box {
-    background-size: 348%;
+    background-position: 46% -3%;
+    background-size: 232%;
   }
 }
 body .branding .box-bg {
