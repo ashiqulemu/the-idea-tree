@@ -234,6 +234,7 @@ body .box .inner .items a img {
     background-size: 348%;
   }
 }
-body .branding .col-lg-4 {
+body .branding .box-bg {
+  padding: 5px;
   background: #f2f2f2;
 }/*# sourceMappingURL=app.css.map */
