@@ -110,7 +110,7 @@ body .box {
   height: 100%;
   width: 100%;
   overflow: hidden;
-  background: url(../images/bg-modify-v3.jpg);
+  background: url(../images/compress/bg-modify-v3.webp);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -229,6 +229,11 @@ body .box .inner .items a img {
     background-position: 49% 100%;
   }
 }
+@media (min-width: 376px) and (max-width: 401px) {
+  body .box {
+    background-size: 232%;
+  }
+}
 @media (max-width: 375px) {
   body .box {
     background-size: 348%;
@@ -237,4 +242,13 @@ body .box .inner .items a img {
 body .branding .box-bg {
   padding: 5px;
   background: #f2f2f2;
+}
+body .branding .box-bg a {
+  display: block;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  body .branding .box-bg {
+    margin-bottom: 5px;
+  }
 }/*# sourceMappingURL=app.css.map */
