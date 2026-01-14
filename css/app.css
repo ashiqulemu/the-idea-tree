@@ -229,8 +229,9 @@ body .box .inner .items a img {
     background-position: 49% 100%;
   }
 }
-@media (min-width: 376px) and (max-width: 401px) {
+@media (min-width: 376px) and (max-width: 392px) {
   body .box {
+    background-position: 48% 101%;
     background-size: 232%;
   }
 }
